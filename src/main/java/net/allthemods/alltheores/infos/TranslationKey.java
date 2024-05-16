@@ -26,6 +26,11 @@ public class TranslationKey {
         return String.format("itemGroup.%s", Reference.MOD_ID);
     }
 
+
+    public static String tab2() {
+        return String.format("itemGroup.%s", Reference.MOD_ID_MEK);
+    }
+
     public static String jei(String key) {
         return String.format(Reference.MOD_ID + ".int.jei.category.%s", key);
     }

@@ -1,6 +1,10 @@
 package net.allthemods.alltheores.blocks.mek_reg;
 
 import net.allthemods.alltheores.infos.Reference;
+import net.allthemods.alltheores.infos.TranslationKey;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -59,4 +63,14 @@ public class MekRegistry {
     public static final RegistryObject<Item> ZINC_CLUMP = ITEMS.register("zinc_clump", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> IRIDIUM_CLUMP = ITEMS.register("iridium_clump", () -> new Item(new Item.Properties()));
 
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Reference.MOD_ID);
+    public static final RegistryObject<CreativeModeTab> MEK_TAB = CREATIVE_TABS.register("creative_tab_mek", () -> CreativeModeTab.builder()
+            .title(Component.translatable(TranslationKey.tab2()))
+            .icon(() -> MekRegistry.IRIDIUM_CLUMP.get().getDefaultInstance())
+            .displayItems((parameters, output) -> MekRegistry.ITEMS.getEntries().stream()
+                    .map(RegistryObject::get)
+                    .map(Item::getDefaultInstance)
+                    .forEach(output::accept))
+            .build()
+    );
 }

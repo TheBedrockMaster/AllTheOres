@@ -32,6 +32,7 @@ public class AllTheOres {
 		if(ModList.get().isLoaded("mekanism")) {
 			MekRegistry.ITEMS.register(modEventBus);
 			ATOSlurries.SLURRIES.register(modEventBus);
+			MekRegistry.CREATIVE_TABS.register(modEventBus);
 		}
 
 		//BlockList.FEATURES.register(modEventBus);

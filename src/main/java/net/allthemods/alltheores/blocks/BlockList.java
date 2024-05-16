@@ -35,12 +35,9 @@ public class BlockList {
 					.map(RegistryObject::get)
 					.map(Item::getDefaultInstance)
 					.forEach(output::accept))
-			.displayItems((parameters, output) -> MekRegistry.ITEMS.getEntries().stream()
-					.map(RegistryObject::get)
-					.map(Item::getDefaultInstance)
-					.forEach(output::accept))
 			.build()
 	);
+
 
 	public static final ResourceLocation MOLTEN_STILL = new ResourceLocation(Reference.MOD_ID,
 			"block/fluid/molten_metal");

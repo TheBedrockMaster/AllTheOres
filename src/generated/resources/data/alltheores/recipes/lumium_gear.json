@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "group": "alltheores",
   "key": {
     "a": {
@@ -16,5 +17,6 @@
   ],
   "result": {
     "item": "alltheores:lumium_gear"
-  }
+  },
+  "show_notification": true
 }

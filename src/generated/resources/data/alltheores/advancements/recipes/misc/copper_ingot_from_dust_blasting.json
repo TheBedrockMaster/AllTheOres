@@ -30,5 +30,6 @@
     "recipes": [
       "alltheores:copper_ingot_from_dust_blasting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

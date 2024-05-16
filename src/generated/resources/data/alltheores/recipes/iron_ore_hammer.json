@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "group": "alltheores",
   "key": {
     "g": {
@@ -16,5 +17,6 @@
   ],
   "result": {
     "item": "alltheores:iron_ore_hammer"
-  }
+  },
+  "show_notification": true
 }

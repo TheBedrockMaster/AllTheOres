@@ -15,6 +15,7 @@ import java.util.List;
 public class Reference {
 
 		public static final String MOD_ID = "alltheores";
+	public static final String MOD_ID_MEK = "alltheores_mek";
 
 		public static List<Block> WORLDGEN_BLACKLIST = new ArrayList<Block>();
 	public static ResourceLocation location(String pathIn) {
