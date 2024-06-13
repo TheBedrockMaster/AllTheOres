@@ -1,18 +1,23 @@
 package net.allthemods.alltheores.datagen.server;
 
 import net.allthemods.alltheores.blocks.AOreBlock;
-import net.allthemods.alltheores.blocks.BOreBlock;
 import net.allthemods.alltheores.blocks.BlockList;
 import net.allthemods.alltheores.blocks.OtherOreBlock;
+import net.minecraft.core.HolderLookup.Provider;
 import net.minecraft.data.loot.packs.VanillaBlockLoot;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import java.util.stream.Collectors;
 
 public class LootTables extends VanillaBlockLoot {
+    public LootTables(Provider p_344962_) {
+        super(p_344962_);
+        //TODO Auto-generated constructor stub
+    }
+
     @Override
         public void generate()
         {
@@ -21,7 +26,7 @@ public class LootTables extends VanillaBlockLoot {
         }
 
         private void dropRaw(Block block) {
-            if((block instanceof AOreBlock) || (block instanceof BOreBlock) || (block instanceof OtherOreBlock)) {
+            if((block instanceof AOreBlock) || (block instanceof OtherOreBlock)) {
                 String oretype = block.getName().toString();
                 if(oretype.contains("aluminum")) { this.add(block, (block1) -> {
                     return createOreDrop(block1, BlockList.ALUMINUM_RAW.get());
@@ -100,7 +105,7 @@ public class LootTables extends VanillaBlockLoot {
         protected Iterable<Block> getKnownBlocks()
         {
             return BlockList.BLOCKS.getEntries()
-                .stream().map(RegistryObject::get)
+                .stream().map(DeferredHolder::get)
                 .filter(block -> !(block instanceof LiquidBlock))
                 .collect(Collectors.toList());
 

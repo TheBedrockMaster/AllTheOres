@@ -7,9 +7,10 @@ import net.allthemods.alltheores.datagen.builder.ShapedRawBuilder;
 import net.allthemods.alltheores.infos.ItemTagRegistry;
 import net.allthemods.alltheores.infos.Reference;
 import net.minecraft.advancements.critereon.ItemPredicate;
+import net.minecraft.core.HolderLookup.Provider;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
@@ -18,23 +19,28 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
-import net.minecraftforge.common.Tags;
+import net.neoforged.neoforge.common.Tags;
 
+import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
 public class CraftingRecipes extends RecipeProvider {
-    public CraftingRecipes(PackOutput packOutput) {
-        super(packOutput);
-    }
 
-    private ShapedRecipeBuilder shaped(ItemLike provider) {
+
+    public CraftingRecipes(PackOutput p_248933_, CompletableFuture<Provider> p_323846_) {
+                super(p_248933_, p_323846_);
+                //TODO Auto-generated constructor stub
+        }
+
+
+private ShapedRecipeBuilder shaped(ItemLike provider) {
         return ShapedRecipeBuilder.shaped(RecipeCategory.MISC,provider)
             .group(Reference.MOD_ID);
     }
 
 
     @Override
-    protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
+    protected void buildRecipes(RecipeOutput consumer) {
         buildBlastingRecipes(consumer);
         buildShapelessRecipes(consumer);
         buildSmeltingRecipes(consumer);
@@ -393,9 +399,9 @@ public class CraftingRecipes extends RecipeProvider {
 
     }
     private ResourceLocation blastingRecipeDir(String typeIn, String typeOut) {
-        return new ResourceLocation(Reference.MOD_ID,typeIn + "_from_" + typeOut + "_blasting");
+        return ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID,typeIn + "_from_" + typeOut + "_blasting");
     }
-    protected void buildBlastingRecipes(Consumer<FinishedRecipe> consumer) {
+    protected void buildBlastingRecipes(RecipeOutput consumer) {
 
         final String hasCondition = "has_item";
 
@@ -620,10 +626,10 @@ public class CraftingRecipes extends RecipeProvider {
     }
 
     private ResourceLocation shapelessRecipeDir(String typeIn, String typeOut) {
-        return new ResourceLocation(Reference.MOD_ID,typeIn + "_from_" + typeOut);
+        return ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID,typeIn + "_from_" + typeOut);
     }
 
-    protected void buildShapelessRecipes(Consumer<FinishedRecipe> consumer) {
+    protected void buildShapelessRecipes(RecipeOutput consumer) {
 
         final String hasCondition = "has_item";
 
@@ -1244,10 +1250,10 @@ public class CraftingRecipes extends RecipeProvider {
                 .save(consumer, shapelessRecipeDir("copper_ingot","block"));
     }
     private ResourceLocation smeltingRecipeDir(String typeIn, String typeOut) {
-        return new ResourceLocation(Reference.MOD_ID,typeIn + "_from_" + typeOut);
+        return ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID,typeIn + "_from_" + typeOut);
     }
 
-    protected void buildSmeltingRecipes(Consumer<FinishedRecipe> consumer) {
+    protected void buildSmeltingRecipes(RecipeOutput consumer) {
 
         final String hasCondition = "has_item";
 

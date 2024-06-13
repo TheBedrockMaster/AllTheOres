@@ -7,7 +7,6 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.common.Tags;
 
 public class ItemTagRegistry {
     private ItemTagRegistry() {
@@ -363,6 +362,6 @@ public class ItemTagRegistry {
 
     private static TagKey<Item> forge(String name)
     {
-        return net.minecraft.tags.ItemTags.create(new ResourceLocation("forge", name));
+        return net.minecraft.tags.ItemTags.create(ResourceLocation.fromNamespaceAndPath("neoforge", name));
     }
 }

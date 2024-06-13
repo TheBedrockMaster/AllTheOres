@@ -2,43 +2,51 @@ package net.allthemods.alltheores.blocks;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Position;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.valueproviders.IntProvider;
+import net.minecraft.util.valueproviders.IntProviderType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 
-import net.minecraftforge.common.util.FakePlayer;
 
 public class OtherOreBlock extends DropExperienceBlock {
+private final static IntProvider xpRange = new IntProvider() {
+		@Override
+		public int getMaxValue() {
+			return 256;
+		}
+
+		@Override
+		public int getMinValue() {
+			return 0;
+		}
+
+		@Override
+		public IntProviderType<?> getType() {
+			return IntProviderType.CONSTANT;
+			
+		}
+
+		@Override
+		public int sample(RandomSource arg0) {
+			return arg0.nextIntBetweenInclusive(this.getMinValue(), this.getMaxValue());
+		}
+	};
+    private static final Properties properties = BlockBehaviour.Properties.of().mapColor(MapColor.STONE);
 
     public OtherOreBlock() {
-        super(Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)
-                .strength(-1.0f));
+        super(xpRange, properties);
     }
 
 
-    @Override
-    @SuppressWarnings("java:S1874") // deprecated method from super class
-    public float getDestroyProgress(BlockState state, Player player, BlockGetter getter, BlockPos blockPos) {
-        BlockEntity blockEntity = getter.getBlockEntity(blockPos);
-        if (canEntityDestroy(state,getter,blockPos, player)) {
-            int i = net.minecraftforge.common.ForgeHooks.isCorrectToolForDrops(state, player) ? 25 : 100;
-            return player.getDigSpeed(state, blockPos) / 2.0F / i;
-        }
-        return 0.0F;
-    }
-    @Override
-    public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-        if ((player instanceof FakePlayer) && (state.getBlock() instanceof OtherOreBlock)) {
-            return false;
-        }
-        return super.canHarvestBlock(state, world, pos, player);
-    }
-
-
+  
 
 }
 

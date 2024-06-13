@@ -27,3 +27,5 @@ forge*changelog.txt
 src/generated/resources/.cache/*
 src/generated/resources/.cache/cache
 src/generated/resources/.cache/cache
+.vscode/settings.json
+/runs

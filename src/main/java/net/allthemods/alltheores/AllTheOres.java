@@ -1,46 +1,30 @@
 package net.allthemods.alltheores;
 
-import net.allthemods.alltheores.blocks.mek_reg.ATOSlurries;
-import net.allthemods.alltheores.blocks.mek_reg.MekRegistry;
-import net.allthemods.alltheores.events.BlockBreak;
 
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import net.allthemods.alltheores.blocks.BlockList;
+import net.allthemods.alltheores.datagen.DataGenerators;
 import net.allthemods.alltheores.infos.Reference;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 @Mod(Reference.MOD_ID)
-@Mod.EventBusSubscriber(modid = Reference.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AllTheOres {
 	public static final Logger LOGGER = LogManager.getLogger(Reference.MOD_ID);
 
-	public AllTheOres() {
-		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+	public AllTheOres(IEventBus modEventBus, ModContainer modContainer) {
 		//ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Configuration.COMMON_SPEC);
-		BlockList.FLUIDS.register(modEventBus);
+		//BlockList.FLUIDS.register(modEventBus);
 		BlockList.BLOCKS.register(modEventBus);
 		BlockList.CREATIVE_TABS.register(modEventBus);
 		BlockList.ITEMS.register(modEventBus);
-
-		if(ModList.get().isLoaded("mekanism")) {
-			MekRegistry.ITEMS.register(modEventBus);
-			ATOSlurries.SLURRIES.register(modEventBus);
-			MekRegistry.CREATIVE_TABS.register(modEventBus);
-		}
-
-		//BlockList.FEATURES.register(modEventBus);
-		MinecraftForge.EVENT_BUS.register(this);
-		//modEventBus.register(Configuration.class);
-		//MinecraftForge.EVENT_BUS.addListener(EventWorldgen::biomeLoadingEvent);
-		MinecraftForge.EVENT_BUS.addListener(BlockBreak::BreakEvent);
-
+		
 		setupLogFilter();
 	}
 

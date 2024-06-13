@@ -10,17 +10,16 @@ import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.data.tags.TagsProvider;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.data.event.GatherDataEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = Reference.MOD_ID)
 public final class DataGenerators {
     private DataGenerators() {}
 
@@ -33,9 +32,9 @@ public final class DataGenerators {
             BlockTags blockTags = new BlockTags(packOutput,event.getLookupProvider(), fileHelper);
             generator.addProvider(true, blockTags);
             generator.addProvider(true,new ItemTags(packOutput,event.getLookupProvider(), blockTags.contentsGetter(), fileHelper));
-            generator.addProvider(true,new CraftingRecipes(packOutput));
+            generator.addProvider(true,new CraftingRecipes(packOutput,event.getLookupProvider()));
             generator.addProvider(true,new LootTableProvider(packOutput, Collections.emptySet(),
-                    List.of(new LootTableProvider.SubProviderEntry(LootTables::new, LootContextParamSets.BLOCK))));
+                    List.of(new LootTableProvider.SubProviderEntry(LootTables::new, LootContextParamSets.BLOCK)),event.getLookupProvider()));
         }
         if (event.includeClient()) {
             generator.addProvider(true,new BlockStates(generator, fileHelper));

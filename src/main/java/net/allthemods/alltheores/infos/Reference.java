@@ -3,10 +3,7 @@ package net.allthemods.alltheores.infos;
 
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,13 +16,13 @@ public class Reference {
 
 		public static List<Block> WORLDGEN_BLACKLIST = new ArrayList<Block>();
 	public static ResourceLocation location(String pathIn) {
-		return new ResourceLocation(pathIn);
+		return ResourceLocation.fromNamespaceAndPath(MOD_ID, pathIn);
 	}
-	public static ResourceLocation ato (String path) { return new ResourceLocation("alltheores",path); }
-	public static ResourceLocation mek (String path) { return new ResourceLocation("mekanism",path); }
-	public static ResourceLocation vanilla(String path) { return new ResourceLocation("minecraft",path); }
+	public static ResourceLocation ato (String path) { return ResourceLocation.fromNamespaceAndPath(MOD_ID,path); }
+	public static ResourceLocation mek (String path) { return ResourceLocation.fromNamespaceAndPath("mekanism",path); }
+	public static ResourceLocation vanilla(String path) { return ResourceLocation.fromNamespaceAndPath("minecraft",path); }
 	public static ResourceLocation forge(String path) {
-		return new ResourceLocation("forge", path);
+		return ResourceLocation.fromNamespaceAndPath("neoforge", path);
 	}
 	public static ResourceLocation ingot(String path) {	return forge("ingots/" + path); }
 	public static ResourceLocation vanillaIngot(String path) {	return vanilla("ingots/" + path); }

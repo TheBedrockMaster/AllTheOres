@@ -2,6 +2,7 @@ package net.allthemods.alltheores.datagen.builder;
 
 import net.allthemods.alltheores.datagen.RecipeException;
 import net.allthemods.alltheores.infos.Reference;
+import net.minecraft.advancements.Criterion;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.recipes.*;
@@ -11,7 +12,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.ItemLike;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.EnumMap;
 import java.util.Locale;
@@ -30,7 +31,7 @@ public class ShapedArmorBuilder {
     }
 
     private final String criteriaName;
-    private final InventoryChangeTrigger.TriggerInstance criterion;
+    private final Criterion<InventoryChangeTrigger.TriggerInstance> criterion;
     private final EnumMap<Slot, Item> pieces = new EnumMap<>(Slot.class);
     private final TagKey<Item> ingot;
     private Item core;
@@ -51,22 +52,22 @@ public class ShapedArmorBuilder {
     }
 
 
-    public ShapedArmorBuilder setHelmet(RegistryObject<ArmorItem> object) {
+    public ShapedArmorBuilder setHelmet(DeferredItem<ArmorItem> object) {
         pieces.put(Slot.HELMET, object.get());
         return this;
     }
 
-    public ShapedArmorBuilder setChestplate(RegistryObject<ArmorItem> object) {
+    public ShapedArmorBuilder setChestplate(DeferredItem<ArmorItem> object) {
         pieces.put(Slot.CHESTPLATE, object.get());
         return this;
     }
 
-    public ShapedArmorBuilder setLeggings(RegistryObject<ArmorItem> object) {
+    public ShapedArmorBuilder setLeggings(DeferredItem<ArmorItem> object) {
         pieces.put(Slot.LEGGINGS, object.get());
         return this;
     }
 
-    public ShapedArmorBuilder setBoots(RegistryObject<ArmorItem> object) {
+    public ShapedArmorBuilder setBoots(DeferredItem<ArmorItem> object) {
         pieces.put(Slot.BOOTS, object.get());
         return this;
     }
@@ -78,7 +79,7 @@ public class ShapedArmorBuilder {
         }
     }
 
-    public void build(Consumer<FinishedRecipe> consumer) {
+    public void build(RecipeOutput consumer) {
 
         Consumer<ShapedRecipeBuilder> register = builder -> builder.save(consumer);
 
