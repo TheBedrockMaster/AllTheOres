@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_TagKey[minecraft:item / neoforge:ingots/lumium]_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/lumium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alltheores:lumium_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_TagKey[minecraft:item / neoforge:ingots/lumium]_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alltheores:lumium_plate"
+    ]
+  }
+}

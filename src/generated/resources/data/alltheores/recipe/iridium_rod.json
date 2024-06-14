@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alltheores",
+  "key": {
+    "a": {
+      "tag": "neoforge:ingots/iridium"
+    },
+    "h": {
+      "tag": "alltheores:ore_hammers"
+    }
+  },
+  "pattern": [
+    "  a",
+    "ha ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:iridium_rod"
+  }
+}

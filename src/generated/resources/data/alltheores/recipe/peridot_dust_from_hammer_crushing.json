@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alltheores:peridot"
+    },
+    {
+      "tag": "alltheores:ore_hammers"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:peridot_dust"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_TagKey[minecraft:item / neoforge:raw_materials/osmium]": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:raw_materials/osmium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alltheores:raw_osmium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_TagKey[minecraft:item / neoforge:raw_materials/osmium]"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alltheores:raw_osmium_block"
+    ]
+  }
+}

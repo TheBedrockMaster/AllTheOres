@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alltheores:lead_dust"
+    },
+    {
+      "item": "alltheores:lead_dust"
+    },
+    {
+      "item": "alltheores:lead_dust"
+    },
+    {
+      "tag": "neoforge:dusts/platinum"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "tag": "alltheores:ore_hammers"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "alltheores:enderium_dust"
+  }
+}

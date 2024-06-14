@@ -13,7 +13,7 @@ public class ItemTagRegistry {
     }
 
     //ATM Compat
-    public static final TagKey<Block> ANCIENT_STONE = BlockTags.create(Reference.location("allthemodium:ancient_stone"));
+    //public static final TagKey<Block> ANCIENT_STONE = BlockTags.create(Reference.location("allthemodium:ancient_stone"));
     //
 
     public static final TagKey<Item> ORE_HAMMERS = ItemTags.create(Reference.ato("ore_hammers"));

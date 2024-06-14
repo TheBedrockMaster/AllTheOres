@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "neoforge:ingots/osmium"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "alltheores:osmium_nugget"
+  }
+}

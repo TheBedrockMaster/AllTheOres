@@ -1,5 +1,6 @@
 package net.allthemods.alltheores.datagen;
 
+import net.allthemods.alltheores.AllTheOres;
 import net.allthemods.alltheores.datagen.client.BlockStates;
 import net.allthemods.alltheores.datagen.client.ItemModels;
 import net.allthemods.alltheores.datagen.server.*;
@@ -7,19 +8,17 @@ import net.allthemods.alltheores.infos.Reference;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
-import net.minecraft.data.tags.TagsProvider;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 
+@EventBusSubscriber(modid = Reference.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public final class DataGenerators {
     private DataGenerators() {}
 

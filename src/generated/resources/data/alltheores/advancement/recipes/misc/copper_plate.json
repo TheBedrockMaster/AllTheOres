@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_TagKey[minecraft:item / neoforge:ingots/copper]_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/copper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alltheores:copper_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_TagKey[minecraft:item / neoforge:ingots/copper]_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alltheores:copper_plate"
+    ]
+  }
+}

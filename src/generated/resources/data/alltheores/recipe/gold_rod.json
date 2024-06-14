@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alltheores",
+  "key": {
+    "a": {
+      "tag": "c:ingots/gold"
+    },
+    "h": {
+      "tag": "alltheores:ore_hammers"
+    }
+  },
+  "pattern": [
+    "  a",
+    "ha ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:gold_rod"
+  }
+}

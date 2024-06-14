@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alltheores",
+  "key": {
+    "n": {
+      "tag": "neoforge:nuggets/copper"
+    }
+  },
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:copper_ingot"
+  }
+}

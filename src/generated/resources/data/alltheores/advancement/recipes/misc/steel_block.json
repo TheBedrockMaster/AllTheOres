@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_TagKey[minecraft:item / neoforge:ingots/steel]_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/steel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alltheores:steel_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_TagKey[minecraft:item / neoforge:ingots/steel]_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alltheores:steel_block"
+    ]
+  }
+}

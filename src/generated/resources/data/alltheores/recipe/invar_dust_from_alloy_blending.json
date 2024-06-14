@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alltheores:iron_dust"
+    },
+    {
+      "item": "alltheores:iron_dust"
+    },
+    {
+      "tag": "neoforge:dusts/nickel"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "alltheores:invar_dust"
+  }
+}

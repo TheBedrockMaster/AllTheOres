@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alltheores",
+  "key": {
+    "a": {
+      "tag": "neoforge:ingots/aluminum"
+    },
+    "i": {
+      "tag": "neoforge:nuggets/iron"
+    }
+  },
+  "pattern": [
+    " a ",
+    "aia",
+    " a "
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:aluminum_gear"
+  }
+}

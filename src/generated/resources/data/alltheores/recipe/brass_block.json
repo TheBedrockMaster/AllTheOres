@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alltheores",
+  "key": {
+    "a": {
+      "tag": "neoforge:ingots/brass"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:brass_block"
+  }
+}

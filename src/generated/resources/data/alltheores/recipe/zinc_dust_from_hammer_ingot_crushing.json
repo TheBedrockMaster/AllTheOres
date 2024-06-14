@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "alltheores:ore_hammers"
+    },
+    {
+      "tag": "neoforge:ingots/zinc"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:zinc_dust"
+  }
+}

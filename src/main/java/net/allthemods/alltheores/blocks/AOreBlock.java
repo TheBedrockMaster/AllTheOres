@@ -5,6 +5,7 @@ package net.allthemods.alltheores.blocks;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.valueproviders.IntProvider;
 import net.minecraft.util.valueproviders.IntProviderType;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 
 
@@ -12,7 +13,7 @@ public class AOreBlock extends DropExperienceBlock {
 private final static IntProvider xpRange = new IntProvider() {
 		@Override
 		public int getMaxValue() {
-			return 256;
+			return 7;
 		}
 
 		@Override
@@ -33,7 +34,8 @@ private final static IntProvider xpRange = new IntProvider() {
 	};
 
 	public AOreBlock(Properties properties) {
-		super(xpRange, properties);
+		super(xpRange, properties.requiresCorrectToolForDrops().strength(3.0F, 3.0F));
+
 	}
 
 	

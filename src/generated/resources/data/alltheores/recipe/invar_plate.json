@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alltheores",
+  "key": {
+    "a": {
+      "tag": "neoforge:ingots/invar"
+    },
+    "h": {
+      "tag": "alltheores:ore_hammers"
+    }
+  },
+  "pattern": [
+    "ha ",
+    "a  ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:invar_plate"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alltheores",
+  "key": {
+    "a": {
+      "tag": "neoforge:raw_materials/osmium"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:raw_osmium_block"
+  }
+}

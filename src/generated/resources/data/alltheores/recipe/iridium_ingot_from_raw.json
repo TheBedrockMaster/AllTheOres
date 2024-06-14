@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "alltheores:raw_iridium"
+  },
+  "result": {
+    "count": 1,
+    "id": "alltheores:iridium_ingot"
+  }
+}

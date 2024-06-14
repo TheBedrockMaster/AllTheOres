@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alltheores:copper_dust"
+    },
+    {
+      "item": "alltheores:copper_dust"
+    },
+    {
+      "item": "alltheores:copper_dust"
+    },
+    {
+      "tag": "neoforge:dusts/tin"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "alltheores:bronze_dust"
+  }
+}

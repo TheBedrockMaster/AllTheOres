@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "neoforge:ingots/bronze"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "alltheores:bronze_nugget"
+  }
+}

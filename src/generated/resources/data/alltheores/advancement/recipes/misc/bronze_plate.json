@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_TagKey[minecraft:item / neoforge:ingots/bronze]_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/bronze"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alltheores:bronze_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_TagKey[minecraft:item / neoforge:ingots/bronze]_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alltheores:bronze_plate"
+    ]
+  }
+}

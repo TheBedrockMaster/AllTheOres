@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "alltheores:deepslate_iridium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "alltheores:iridium_ingot"
+  }
+}

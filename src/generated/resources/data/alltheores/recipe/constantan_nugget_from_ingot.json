@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "neoforge:ingots/constantan"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "alltheores:constantan_nugget"
+  }
+}

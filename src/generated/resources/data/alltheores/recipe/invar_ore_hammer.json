@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alltheores",
+  "key": {
+    "g": {
+      "item": "alltheores:invar_block"
+    },
+    "t": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " gt",
+    " tg",
+    "t  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "alltheores:invar_ore_hammer"
+  }
+}

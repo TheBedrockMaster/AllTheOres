@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_TagKey[minecraft:item / neoforge:ingots/lead]_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/lead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alltheores:lead_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_TagKey[minecraft:item / neoforge:ingots/lead]_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alltheores:lead_block"
+    ]
+  }
+}

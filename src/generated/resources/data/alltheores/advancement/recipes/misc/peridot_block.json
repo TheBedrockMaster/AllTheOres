@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_TagKey[minecraft:item / neoforge:gems/peridot]_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:gems/peridot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alltheores:peridot_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_TagKey[minecraft:item / neoforge:gems/peridot]_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alltheores:peridot_block"
+    ]
+  }
+}

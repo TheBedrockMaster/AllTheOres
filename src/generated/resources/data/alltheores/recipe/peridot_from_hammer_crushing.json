@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "alltheores:ore_hammers"
+    },
+    {
+      "tag": "neoforge:ores/peridot"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "alltheores:peridot"
+  }
+}

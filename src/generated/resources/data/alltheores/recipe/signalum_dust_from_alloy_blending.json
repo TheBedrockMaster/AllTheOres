@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alltheores:copper_dust"
+    },
+    {
+      "item": "alltheores:copper_dust"
+    },
+    {
+      "item": "alltheores:copper_dust"
+    },
+    {
+      "tag": "neoforge:dusts/silver"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "alltheores:signalum_dust"
+  }
+}

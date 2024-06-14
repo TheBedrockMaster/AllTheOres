@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_TagKey[minecraft:item / neoforge:ingots/brass]_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#neoforge:ingots/brass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "alltheores:brass_rod"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_TagKey[minecraft:item / neoforge:ingots/brass]_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "alltheores:brass_rod"
+    ]
+  }
+}
