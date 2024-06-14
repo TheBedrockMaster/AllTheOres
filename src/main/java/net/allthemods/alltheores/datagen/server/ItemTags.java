@@ -1,6 +1,7 @@
 package net.allthemods.alltheores.datagen.server;
 
 import net.allthemods.alltheores.blocks.BlockList;
+import net.allthemods.alltheores.blocks.mek_reg.MekRegistry;
 import net.allthemods.alltheores.infos.ItemTagRegistry;
 import net.allthemods.alltheores.infos.Reference;
 import net.minecraft.core.HolderLookup;
@@ -21,62 +22,62 @@ public class ItemTags extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-/*
+
         //Mek Compat
-        tag(ItemTagRegistry.CLUMPS_MEK).add(BlockList.ALUM_CLUMP.get());
-        tag(ItemTagRegistry.CLUMPS_MEK).add(BlockList.NICK_CLUMP.get());
-        tag(ItemTagRegistry.CLUMPS_MEK).add(BlockList.PLAT_CLUMP.get());
-        tag(ItemTagRegistry.CLUMPS_MEK).add(BlockList.SILV_CLUMP.get());
-        tag(ItemTagRegistry.CLUMPS_MEK).add(BlockList.ZINC_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK).add(MekRegistry.ALUM_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK).add(MekRegistry.NICK_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK).add(MekRegistry.PLAT_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK).add(MekRegistry.SILV_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK).add(MekRegistry.ZINC_CLUMP.get());
 
-        tag(ItemTagRegistry.CLUMPS_MEK_ALU).add(BlockList.ALUM_CLUMP.get());
-        tag(ItemTagRegistry.CLUMPS_MEK_NIC).add(BlockList.NICK_CLUMP.get());
-        tag(ItemTagRegistry.CLUMPS_MEK_PLA).add(BlockList.PLAT_CLUMP.get());
-        tag(ItemTagRegistry.CLUMPS_MEK_SIL).add(BlockList.SILV_CLUMP.get());
-        tag(ItemTagRegistry.CLUMPS_MEK_ZIN).add(BlockList.ZINC_CLUMP.get());
-
-        //
-
-
-        tag(ItemTagRegistry.CRYSTAL_MEK).add(BlockList.ALUM_CRYSTAL.get());
-        tag(ItemTagRegistry.CRYSTAL_MEK).add(BlockList.NICK_CRYSTAL.get());
-        tag(ItemTagRegistry.CRYSTAL_MEK).add(BlockList.PLAT_CRYSTAL.get());
-        tag(ItemTagRegistry.CRYSTAL_MEK).add(BlockList.SILV_CRYSTAL.get());
-        tag(ItemTagRegistry.CRYSTAL_MEK).add(BlockList.ZINC_CRYSTAL.get());
-
-        tag(ItemTagRegistry.CRYSTAL_MEK_ALU).add(BlockList.ALUM_CRYSTAL.get());
-        tag(ItemTagRegistry.CRYSTAL_MEK_NIC).add(BlockList.NICK_CRYSTAL.get());
-        tag(ItemTagRegistry.CRYSTAL_MEK_PLA).add(BlockList.PLAT_CRYSTAL.get());
-        tag(ItemTagRegistry.CRYSTAL_MEK_SIL).add(BlockList.SILV_CRYSTAL.get());
-        tag(ItemTagRegistry.CRYSTAL_MEK_ZIN).add(BlockList.ZINC_CRYSTAL.get());
-        //
-
-        tag(ItemTagRegistry.DIRTY_MEK).add(BlockList.ALUM_DIRTY.get());
-        tag(ItemTagRegistry.DIRTY_MEK).add(BlockList.NICK_DIRTY.get());
-        tag(ItemTagRegistry.DIRTY_MEK).add(BlockList.PLAT_DIRTY.get());
-        tag(ItemTagRegistry.DIRTY_MEK).add(BlockList.SILV_DIRTY.get());
-        tag(ItemTagRegistry.DIRTY_MEK).add(BlockList.ZINC_DIRTY.get());
-
-        tag(ItemTagRegistry.DIRTY_MEK_ALU).add(BlockList.ALUM_DIRTY.get());
-        tag(ItemTagRegistry.DIRTY_MEK_NIC).add(BlockList.NICK_DIRTY.get());
-        tag(ItemTagRegistry.DIRTY_MEK_PLA).add(BlockList.PLAT_DIRTY.get());
-        tag(ItemTagRegistry.DIRTY_MEK_SIL).add(BlockList.SILV_DIRTY.get());
-        tag(ItemTagRegistry.DIRTY_MEK_ZIN).add(BlockList.ZINC_DIRTY.get());
+        tag(ItemTagRegistry.CLUMPS_MEK_ALU).add(MekRegistry.ALUM_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK_NIC).add(MekRegistry.NICK_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK_PLA).add(MekRegistry.PLAT_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK_SIL).add(MekRegistry.SILV_CLUMP.get());
+        tag(ItemTagRegistry.CLUMPS_MEK_ZIN).add(MekRegistry.ZINC_CLUMP.get());
 
         //
 
-        tag(ItemTagRegistry.SHARD_MEK).add(BlockList.ALUM_SHARD.get());
-        tag(ItemTagRegistry.SHARD_MEK).add(BlockList.NICK_SHARD.get());
-        tag(ItemTagRegistry.SHARD_MEK).add(BlockList.PLAT_SHARD.get());
-        tag(ItemTagRegistry.SHARD_MEK).add(BlockList.SILV_SHARD.get());
-        tag(ItemTagRegistry.SHARD_MEK).add(BlockList.ZINC_SHARD.get());
 
-        tag(ItemTagRegistry.SHARD_MEK_ALU).add(BlockList.ALUM_SHARD.get());
-        tag(ItemTagRegistry.SHARD_MEK_NIC).add(BlockList.NICK_SHARD.get());
-        tag(ItemTagRegistry.SHARD_MEK_PLA).add(BlockList.PLAT_SHARD.get());
-        tag(ItemTagRegistry.SHARD_MEK_SIL).add(BlockList.SILV_SHARD.get());
-        tag(ItemTagRegistry.SHARD_MEK_ZIN).add(BlockList.ZINC_SHARD.get());
-*/
+        tag(ItemTagRegistry.CRYSTAL_MEK).add(MekRegistry.ALUM_CRYSTAL.get());
+        tag(ItemTagRegistry.CRYSTAL_MEK).add(MekRegistry.NICK_CRYSTAL.get());
+        tag(ItemTagRegistry.CRYSTAL_MEK).add(MekRegistry.PLAT_CRYSTAL.get());
+        tag(ItemTagRegistry.CRYSTAL_MEK).add(MekRegistry.SILV_CRYSTAL.get());
+        tag(ItemTagRegistry.CRYSTAL_MEK).add(MekRegistry.ZINC_CRYSTAL.get());
+
+        tag(ItemTagRegistry.CRYSTAL_MEK_ALU).add(MekRegistry.ALUM_CRYSTAL.get());
+        tag(ItemTagRegistry.CRYSTAL_MEK_NIC).add(MekRegistry.NICK_CRYSTAL.get());
+        tag(ItemTagRegistry.CRYSTAL_MEK_PLA).add(MekRegistry.PLAT_CRYSTAL.get());
+        tag(ItemTagRegistry.CRYSTAL_MEK_SIL).add(MekRegistry.SILV_CRYSTAL.get());
+        tag(ItemTagRegistry.CRYSTAL_MEK_ZIN).add(MekRegistry.ZINC_CRYSTAL.get());
+        //
+
+        tag(ItemTagRegistry.DIRTY_MEK).add(MekRegistry.ALUM_DIRTY.get());
+        tag(ItemTagRegistry.DIRTY_MEK).add(MekRegistry.NICK_DIRTY.get());
+        tag(ItemTagRegistry.DIRTY_MEK).add(MekRegistry.PLAT_DIRTY.get());
+        tag(ItemTagRegistry.DIRTY_MEK).add(MekRegistry.SILV_DIRTY.get());
+        tag(ItemTagRegistry.DIRTY_MEK).add(MekRegistry.ZINC_DIRTY.get());
+
+        tag(ItemTagRegistry.DIRTY_MEK_ALU).add(MekRegistry.ALUM_DIRTY.get());
+        tag(ItemTagRegistry.DIRTY_MEK_NIC).add(MekRegistry.NICK_DIRTY.get());
+        tag(ItemTagRegistry.DIRTY_MEK_PLA).add(MekRegistry.PLAT_DIRTY.get());
+        tag(ItemTagRegistry.DIRTY_MEK_SIL).add(MekRegistry.SILV_DIRTY.get());
+        tag(ItemTagRegistry.DIRTY_MEK_ZIN).add(MekRegistry.ZINC_DIRTY.get());
+
+        //
+
+        tag(ItemTagRegistry.SHARD_MEK).add(MekRegistry.ALUM_SHARD.get());
+        tag(ItemTagRegistry.SHARD_MEK).add(MekRegistry.NICK_SHARD.get());
+        tag(ItemTagRegistry.SHARD_MEK).add(MekRegistry.PLAT_SHARD.get());
+        tag(ItemTagRegistry.SHARD_MEK).add(MekRegistry.SILV_SHARD.get());
+        tag(ItemTagRegistry.SHARD_MEK).add(MekRegistry.ZINC_SHARD.get());
+
+        tag(ItemTagRegistry.SHARD_MEK_ALU).add(MekRegistry.ALUM_SHARD.get());
+        tag(ItemTagRegistry.SHARD_MEK_NIC).add(MekRegistry.NICK_SHARD.get());
+        tag(ItemTagRegistry.SHARD_MEK_PLA).add(MekRegistry.PLAT_SHARD.get());
+        tag(ItemTagRegistry.SHARD_MEK_SIL).add(MekRegistry.SILV_SHARD.get());
+        tag(ItemTagRegistry.SHARD_MEK_ZIN).add(MekRegistry.ZINC_SHARD.get());
+
         //
         tag(ItemTagRegistry.ALUMINUM_INGOT).add(BlockList.ALUMINUM_INGOT.get());
         tag(ItemTagRegistry.IRIDIUM_INGOT).add(BlockList.IRIDIUM_INGOT.get());

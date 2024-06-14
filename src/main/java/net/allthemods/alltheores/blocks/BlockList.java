@@ -506,7 +506,7 @@ public static final DeferredBlock<Block> OSMIUM_SLATE_ORE = BLOCKS.register("dee
 
 	public static final DeferredBlock<Block> RUBY_SLATE_ORE = BLOCKS.register("deepslate_ruby_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
 	public static final DeferredBlock<Block> RUBY_ORE = BLOCKS.register("ruby_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
-	public static final DeferredBlock<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.METAL)));
+	public static final DeferredBlock<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.AMETHYST)));
 	public static final DeferredItem<Item> RUBY_SLATE_ORE_ITEM = ITEMS.register("deepslate_ruby_ore",
 			() -> new ToolTipBlockItem(RUBY_SLATE_ORE.get(), new Item.Properties()));
 	public static final DeferredItem<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore",
@@ -520,7 +520,7 @@ public static final DeferredBlock<Block> OSMIUM_SLATE_ORE = BLOCKS.register("dee
 
 	public static final DeferredBlock<Block> PERIDOT_SLATE_ORE = BLOCKS.register("deepslate_peridot_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
 	public static final DeferredBlock<Block> PERIDOT_ORE = BLOCKS.register("peridot_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
-	public static final DeferredBlock<Block> PERIDOT_BLOCK = BLOCKS.register("peridot_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.METAL)));
+	public static final DeferredBlock<Block> PERIDOT_BLOCK = BLOCKS.register("peridot_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.AMETHYST)));
 	public static final DeferredItem<Item> PERIDOT_SLATE_ORE_ITEM = ITEMS.register("deepslate_peridot_ore",
 			() -> new ToolTipBlockItem(PERIDOT_SLATE_ORE.get(), new Item.Properties()));
 	public static final DeferredItem<Item> PERIDOT_ORE_ITEM = ITEMS.register("peridot_ore",
@@ -534,7 +534,7 @@ public static final DeferredBlock<Block> OSMIUM_SLATE_ORE = BLOCKS.register("dee
 
 	public static final DeferredBlock<Block> SAPPHIRE_SLATE_ORE = BLOCKS.register("deepslate_sapphire_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
 	public static final DeferredBlock<Block> SAPPHIRE_ORE = BLOCKS.register("sapphire_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
-	public static final DeferredBlock<Block> SAPPHIRE_BLOCK = BLOCKS.register("sapphire_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.METAL)));
+	public static final DeferredBlock<Block> SAPPHIRE_BLOCK = BLOCKS.register("sapphire_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.AMETHYST)));
 	public static final DeferredItem<Item> SAPPHIRE_SLATE_ORE_ITEM = ITEMS.register("deepslate_sapphire_ore",
 			() -> new ToolTipBlockItem(SAPPHIRE_SLATE_ORE.get(), new Item.Properties()));
 	public static final DeferredItem<Item> SAPPHIRE_ORE_ITEM = ITEMS.register("sapphire_ore",
@@ -546,4 +546,39 @@ public static final DeferredBlock<Block> OSMIUM_SLATE_ORE = BLOCKS.register("dee
 	public static final DeferredItem<Item> SAPPHIRE = ITEMS.register("sapphire",
 			() -> new Item(new Item.Properties()));
 
+	public static final DeferredBlock<Block> CINNABAR_ORE = BLOCKS.register("cinnabar_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
+	public static final DeferredItem<Item> CINNABAR_ORE_ITEM = ITEMS.register("cinnabar_ore",
+			() -> new ToolTipBlockItem(CINNABAR_ORE.get(), new Item.Properties()));
+	public static final DeferredBlock<Block> CINNABAR_BLOCK = BLOCKS.register("cinnabar_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.AMETHYST)));			
+	public static final DeferredItem<Item> CINNABAR_BLOCK_ITEM = ITEMS.register("cinnabar_block",
+			() -> new BlockItem(CINNABAR_BLOCK.get(), new Item.Properties()));
+	public static final DeferredItem<Item> CINNABAR = ITEMS.register("cinnabar",
+			() -> new Item(new Item.Properties()));
+
+	public static final DeferredBlock<Block> FLUORITE_ORE = BLOCKS.register("fluorite_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
+	public static final DeferredItem<Item> FLUORITE_ORE_ITEM = ITEMS.register("fluorite_ore",
+			() -> new ToolTipBlockItem(FLUORITE_ORE.get(), new Item.Properties()));
+	public static final DeferredBlock<Block> FLUORITE_BLOCK = BLOCKS.register("fluorite_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.AMETHYST)));			
+	public static final DeferredItem<Item> FLUORITE_BLOCK_ITEM = ITEMS.register("fluorite_block",
+			() -> new BlockItem(FLUORITE_BLOCK.get(), new Item.Properties()));
+	public static final DeferredItem<Item> FLUORITE = ITEMS.register("fluorite",
+			() -> new Item(new Item.Properties()));
+
+	public static final DeferredBlock<Block> SALT_ORE = BLOCKS.register("salt_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
+	public static final DeferredItem<Item> SALT_ORE_ITEM = ITEMS.register("salt_ore",
+			() -> new ToolTipBlockItem(SALT_ORE.get(), new Item.Properties()));
+	public static final DeferredBlock<Block> SALT_BLOCK = BLOCKS.register("salt_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.AMETHYST)));			
+	public static final DeferredItem<Item> SALT_BLOCK_ITEM = ITEMS.register("salt_block",
+			() -> new BlockItem(SALT_BLOCK.get(), new Item.Properties()));
+	public static final DeferredItem<Item> SALT = ITEMS.register("salt",
+			() -> new Item(new Item.Properties()));
+
+	public static final DeferredBlock<Block> SULFUR_ORE = BLOCKS.register("sulfur_ore", () -> new AOreBlock(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
+	public static final DeferredItem<Item> SULFUR_ORE_ITEM = ITEMS.register("sulfur_ore",
+			() -> new ToolTipBlockItem(SULFUR_ORE.get(), new Item.Properties()));
+	public static final DeferredBlock<Block> SULFUR_BLOCK = BLOCKS.register("sulfur_block", () -> new Block(Block.Properties.of().strength(3.0f,3.0f).sound(SoundType.AMETHYST)));			
+	public static final DeferredItem<Item> SULFUR_BLOCK_ITEM = ITEMS.register("sulfur_block",
+			() -> new BlockItem(SULFUR_BLOCK.get(), new Item.Properties()));
+	public static final DeferredItem<Item> SULFUR = ITEMS.register("sulfur",
+			() -> new Item(new Item.Properties()));
 }

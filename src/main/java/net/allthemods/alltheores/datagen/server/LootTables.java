@@ -95,6 +95,18 @@ public class LootTables extends VanillaBlockLoot {
                 if(oretype.contains("peridot")) { this.add(block, (block1) -> {
                     return createOreDrop(block1, BlockList.PERIDOT.get());
                 }); }
+                if(oretype.contains("fluorite")) { this.add(block, (block1) -> {
+                    return createOreDrop(block1, BlockList.FLUORITE.get());
+                }); }
+                if(oretype.contains("cinnabar")) { this.add(block, (block1) -> {
+                    return createOreDrop(block1, BlockList.CINNABAR.get());
+                }); }
+                if(oretype.contains("sulfur")) { this.add(block, (block1) -> {
+                    return createOreDrop(block1, BlockList.SULFUR.get());
+                }); }
+                if(oretype.contains("salt")) { this.add(block, (block1) -> {
+                    return createOreDrop(block1, BlockList.SALT.get());
+                }); }                                                                
             } else {
                 this.dropSelf(block);
             }

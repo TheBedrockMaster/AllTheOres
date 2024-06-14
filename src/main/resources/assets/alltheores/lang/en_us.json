@@ -331,5 +331,17 @@
   "block.alltheores.peridot_ore": "Peridot Ore",
   "block.alltheores.deepslate_peridot_ore": "Peridot Slate Ore",
   "item.alltheores.peridot": "Peridot",
-  "item.alltheores.peridot_dust": "Peridot Dust"
+  "item.alltheores.peridot_dust": "Peridot Dust",
+  "block.alltheores.cinnabar_ore": "Cinnabar Ore",
+  "block.alltheores.cinnabar_block": "Cinnabar Block",
+  "block.alltheores.salt_ore": "Salt Ore",
+  "block.alltheores.salt_block": "Salt Block",
+  "block.alltheores.sulfur_ore": "Sulfur Ore",
+  "block.alltheores.sulfur_block": "Sulfur Block",
+  "block.alltheores.fluorite_ore": "Fluorite Ore",
+  "block.alltheores.fluorite_block": "Fluorite Block",
+  "item.alltheores.cinnabar": "Cinnabar",
+  "item.alltheores.salt": "Salt",
+  "item.alltheores.sulfur": "Sulfur",
+  "item.alltheores.fluorite": "Fluorite"
 }
