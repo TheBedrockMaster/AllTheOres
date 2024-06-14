@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "forge:storage_blocks/uranium"
+    "tag": "neoforge:storage_blocks/uranium"
   },
   "value": 9,
   "needed": 1,
   "material": "alltheores:uranium",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "tconstruct"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "tag": "forge:dusts/platinum"
+    "tag": "neoforge:dusts/platinum"
   },
   "result": "alltheores:platinum_ingot",
   "experience": 1.0,

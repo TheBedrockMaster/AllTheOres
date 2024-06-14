@@ -3,7 +3,7 @@
   "mainInput": {
     "amount": 8,
     "ingredient": {
-      "tag": "forge:raw_materials/iridium"
+      "tag": "neoforge:raw_materials/iridium"
     }
   },
   "extraInput": {

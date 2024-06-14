@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "forge:nuggets/silver"
+    "tag": "neoforge:nuggets/silver"
   },
   "value": 1,
   "needed": 9,
   "material": "alltheores:silver",
   "conditions": [
       {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "tconstruct"
       }
   ]

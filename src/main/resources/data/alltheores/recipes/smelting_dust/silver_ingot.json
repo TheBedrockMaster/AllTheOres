@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "tag": "forge:dusts/silver"
+    "tag": "neoforge:dusts/silver"
   },
   "result": "alltheores:silver_ingot",
   "experience": 1.0,

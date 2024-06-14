@@ -2,7 +2,7 @@
   "type": "mekanism:dissolution",
   "itemInput": {
     "ingredient": {
-      "tag": "forge:ores/silver"
+      "tag": "neoforge:ores/silver"
     }
   },
   "gasInput": {
@@ -16,7 +16,7 @@
   },
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "mekanism"
     }
   ]

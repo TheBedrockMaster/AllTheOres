@@ -3,12 +3,12 @@
   "mainInput": {
     "amount": 8,
     "ingredient": {
-      "tag": "forge:raw_materials/iridium"
+      "tag": "neoforge:raw_materials/iridium"
     }
   },
   "extraInput": {
     "ingredient": {
-      "tag": "forge:cobblestone/normal"
+      "tag": "neoforge:cobblestone/normal"
     }
   },
   "output": {

@@ -3,12 +3,12 @@
   "mainInput": {
     "amount": 8,
     "ingredient": {
-      "tag": "forge:dusts/aluminum"
+      "tag": "neoforge:dusts/aluminum"
     }
   },
   "extraInput": {
     "ingredient": {
-      "tag": "forge:cobblestone"
+      "tag": "neoforge:cobblestone"
     }
   },
   "output": {
@@ -16,7 +16,7 @@
   },
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "mekanism"
     }
   ]

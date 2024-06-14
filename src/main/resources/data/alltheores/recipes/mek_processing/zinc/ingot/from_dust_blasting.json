@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "result": "alltheores:zinc_ingot",
   "ingredient": {
-    "tag": "forge:dusts/zinc"
+    "tag": "neoforge:dusts/zinc"
   },
   "cookingtime": 100,
   "experience": 0.3

@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "forge:nuggets/platinum"
+    "tag": "neoforge:nuggets/platinum"
   },
   "value": 1,
   "needed": 9,
   "material": "alltheores:platinum",
   "conditions": [
       {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "tconstruct"
       }
   ]

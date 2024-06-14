@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "forge:storage_blocks/silver"
+    "tag": "neoforge:storage_blocks/silver"
   },
   "value": 9,
   "needed": 1,
   "material": "alltheores:silver",
   "conditions": [
       {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "tconstruct"
       }
   ]

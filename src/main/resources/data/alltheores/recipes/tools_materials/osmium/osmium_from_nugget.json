@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "forge:nuggets/osmium"
+    "tag": "neoforge:nuggets/osmium"
   },
   "value": 1,
   "needed": 9,
   "material": "alltheores:osmium",
   "conditions": [
       {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "tconstruct"
       }
   ]

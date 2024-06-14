@@ -2,7 +2,7 @@
   "type": "mekanism:enriching",
   "input": {
     "ingredient": {
-      "tag": "forge:storage_blocks/raw_platinum"
+      "tag": "neoforge:storage_blocks/raw_platinum"
     }
   },
   "output": {

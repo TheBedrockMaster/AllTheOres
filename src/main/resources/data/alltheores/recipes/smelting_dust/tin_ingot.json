@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-   "tag": "forge:dusts/tin"
+   "tag": "neoforge:dusts/tin"
   },
   "result": "alltheores:tin_ingot",
   "experience": 1.0,

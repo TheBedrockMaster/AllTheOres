@@ -3,7 +3,7 @@
   "input": {
     "amount": 3,
     "ingredient": {
-      "tag": "forge:raw_materials/platinum"
+      "tag": "neoforge:raw_materials/platinum"
     }
   },
   "output": {

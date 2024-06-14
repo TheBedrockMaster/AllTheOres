@@ -1,14 +1,14 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "forge:ingots/silver"
+    "tag": "neoforge:ingots/silver"
   },
   "value": 1,
   "needed": 1,
   "material": "alltheores:silver",
   "conditions": [
       {
-          "type": "forge:mod_loaded",
+          "type": "neoforge:mod_loaded",
           "modid": "tconstruct"
       }
   ]

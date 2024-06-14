@@ -3,7 +3,7 @@
   "input": {
     "amount": 3,
     "ingredient": {
-      "tag": "forge:raw_materials/nickel"
+      "tag": "neoforge:raw_materials/nickel"
     }
   },
   "output": {

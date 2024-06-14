@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "result": "alltheores:silver_ingot",
   "ingredient": {
-    "tag": "forge:dusts/silver"
+    "tag": "neoforge:dusts/silver"
   },
   "cookingtime": 100,
   "experience": 0.3

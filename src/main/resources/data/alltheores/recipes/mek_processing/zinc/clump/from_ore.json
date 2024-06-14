@@ -2,7 +2,7 @@
   "type": "mekanism:purifying",
   "itemInput": {
     "ingredient": {
-      "tag": "forge:ores/zinc"
+      "tag": "neoforge:ores/zinc"
     }
   },
   "chemicalInput": {
@@ -15,7 +15,7 @@
   },
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "mekanism"
     }
   ]

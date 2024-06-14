@@ -3,7 +3,7 @@
   "itemInput": {
     "amount": 3,
     "ingredient": {
-      "tag": "forge:raw_materials/zinc"
+      "tag": "neoforge:raw_materials/zinc"
     }
   },
   "gasInput": {

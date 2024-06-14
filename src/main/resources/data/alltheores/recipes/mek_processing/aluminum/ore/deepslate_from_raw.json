@@ -3,12 +3,12 @@
   "mainInput": {
     "amount": 8,
     "ingredient": {
-      "tag": "forge:raw_materials/aluminum"
+      "tag": "neoforge:raw_materials/aluminum"
     }
   },
   "extraInput": {
     "ingredient": {
-      "tag": "forge:cobblestone/deepslate"
+      "tag": "neoforge:cobblestone/deepslate"
     }
   },
   "output": {
