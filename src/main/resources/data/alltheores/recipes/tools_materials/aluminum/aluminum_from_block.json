@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:storage_blocks/aluminum"
+    "tag": "c:storage_blocks/aluminum"
   },
   "value": 9,
   "needed": 1,

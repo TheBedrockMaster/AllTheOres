@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:storage_blocks/uranium"
+    "tag": "c:storage_blocks/uranium"
   },
   "value": 9,
   "needed": 1,

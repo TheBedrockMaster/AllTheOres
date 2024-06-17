@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/aluminum]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/aluminum]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/aluminum"
+            "items": "#c:ingots/aluminum"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/aluminum]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/aluminum]_ingot"
     ]
   ],
   "rewards": {

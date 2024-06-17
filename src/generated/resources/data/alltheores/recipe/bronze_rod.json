@@ -4,7 +4,7 @@
   "group": "alltheores",
   "key": {
     "a": {
-      "tag": "neoforge:ingots/bronze"
+      "tag": "c:ingots/bronze"
     },
     "h": {
       "tag": "alltheores:ore_hammers"

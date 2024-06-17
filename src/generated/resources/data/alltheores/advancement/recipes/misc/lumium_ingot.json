@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:nuggets/lumium]_nugget": {
+    "has_TagKey[minecraft:item / c:nuggets/lumium]_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:nuggets/lumium"
+            "items": "#c:nuggets/lumium"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:nuggets/lumium]_nugget"
+      "has_TagKey[minecraft:item / c:nuggets/lumium]_nugget"
     ]
   ],
   "rewards": {

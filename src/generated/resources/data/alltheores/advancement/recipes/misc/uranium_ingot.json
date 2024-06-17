@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:nuggets/uranium]_nugget": {
+    "has_TagKey[minecraft:item / c:nuggets/uranium]_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:nuggets/uranium"
+            "items": "#c:nuggets/uranium"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:nuggets/uranium]_nugget"
+      "has_TagKey[minecraft:item / c:nuggets/uranium]_nugget"
     ]
   ],
   "rewards": {

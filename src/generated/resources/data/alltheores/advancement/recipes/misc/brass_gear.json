@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/brass]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/brass]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/brass"
+            "items": "#c:ingots/brass"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/brass]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/brass]_ingot"
     ]
   ],
   "rewards": {

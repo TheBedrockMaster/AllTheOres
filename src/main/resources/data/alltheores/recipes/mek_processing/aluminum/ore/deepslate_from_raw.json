@@ -1,17 +1,15 @@
 {
-  "type": "mekanism:combining",
-  "mainInput": {
-    "amount": 8,
-    "ingredient": {
-      "tag": "neoforge:raw_materials/aluminum"
+    "type": "mekanism:combining",
+    "extra_input": {
+        "count": 1,
+        "tag": "c:cobblestones/deepslate"
+    },
+    "main_input": {
+        "count": 20,
+        "tag": "c:raw_materials/aluminum"
+    },
+    "output": {
+        "count": 1,
+        "id": "alltheores:deepslate_aluminum_ore"
     }
-  },
-  "extraInput": {
-    "ingredient": {
-      "tag": "neoforge:cobblestone/deepslate"
-    }
-  },
-  "output": {
-    "item": "alltheores:deepslate_aluminum_ore"
-  }
 }

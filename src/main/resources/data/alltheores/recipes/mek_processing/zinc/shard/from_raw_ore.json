@@ -1,17 +1,15 @@
 {
-  "type": "mekanism:injecting",
-  "itemInput": {
-    "amount": 3,
-    "ingredient": {
-      "tag": "neoforge:raw_materials/zinc"
+    "type": "mekanism:injecting",
+    "chemical_input": {
+        "amount": 1,
+        "gas": "mekanism:hydrogen_chloride"
+    },
+    "item_input": {
+        "count": 3,
+        "tag": "c:raw_materials/zinc"
+    },
+    "output": {
+        "count": 8,
+        "id": "alltheores:zinc_shard"
     }
-  },
-  "chemicalInput": {
-    "amount": 1,
-    "gas": "mekanism:hydrogen_chloride"
-  },
-  "output": {
-    "item": "alltheores:zinc_shard",
-    "count": 8
-  }
 }

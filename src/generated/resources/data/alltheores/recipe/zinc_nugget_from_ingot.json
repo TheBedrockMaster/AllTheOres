@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/zinc"
+      "tag": "c:ingots/zinc"
     }
   ],
   "result": {

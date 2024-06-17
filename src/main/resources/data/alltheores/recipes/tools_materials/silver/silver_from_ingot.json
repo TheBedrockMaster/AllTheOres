@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:ingots/silver"
+    "tag": "c:ingots/silver"
   },
   "value": 1,
   "needed": 1,

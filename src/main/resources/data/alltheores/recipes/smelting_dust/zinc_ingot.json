@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "tag": "neoforge:dusts/zinc"
+    "tag": "c:dusts/zinc"
   },
   "result": "alltheores:zinc_ingot",
   "experience": 1.0,

@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:nuggets/silver"
+    "tag": "c:nuggets/silver"
   },
   "value": 1,
   "needed": 9,

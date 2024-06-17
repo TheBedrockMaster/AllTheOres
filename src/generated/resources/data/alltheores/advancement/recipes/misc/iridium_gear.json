@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/iridium]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/iridium]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/iridium"
+            "items": "#c:ingots/iridium"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/iridium]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/iridium]_ingot"
     ]
   ],
   "rewards": {

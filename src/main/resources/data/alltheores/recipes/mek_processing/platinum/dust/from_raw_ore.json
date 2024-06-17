@@ -1,13 +1,11 @@
 {
-  "type": "mekanism:enriching",
-  "input": {
-    "amount": 3,
-    "ingredient": {
-      "tag": "neoforge:raw_materials/platinum"
+    "type": "mekanism:enriching",
+    "input": {
+        "count": 3,
+        "tag": "c:raw_materials/platinum"
+    },
+    "output": {
+        "count": 4,
+        "id": "alltheores:platinum_dust"
     }
-  },
-  "output": {
-    "item": "alltheores:platinum_dust",
-    "count": 4
-  }
 }

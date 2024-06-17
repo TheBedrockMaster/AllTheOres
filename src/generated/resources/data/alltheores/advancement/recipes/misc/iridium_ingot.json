@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:nuggets/iridium]_nugget": {
+    "has_TagKey[minecraft:item / c:nuggets/iridium]_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:nuggets/iridium"
+            "items": "#c:nuggets/iridium"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:nuggets/iridium]_nugget"
+      "has_TagKey[minecraft:item / c:nuggets/iridium]_nugget"
     ]
   ],
   "rewards": {

@@ -1,13 +1,11 @@
 {
-  "type": "mekanism:enriching",
-  "input": {
-    "amount": 3,
-    "ingredient": {
-      "tag": "neoforge:raw_materials/silver"
+    "type": "mekanism:enriching",
+    "input": {
+        "count": 3,
+        "tag": "c:raw_materials/silver"
+    },
+    "output": {
+        "count": 4,
+        "id": "alltheores:silver_dust"
     }
-  },
-  "output": {
-    "item": "alltheores:silver_dust",
-    "count": 4
-  }
 }

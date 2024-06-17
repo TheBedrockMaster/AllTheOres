@@ -1,17 +1,11 @@
 {
-  "type": "mekanism:crushing",
-  "input": {
-    "ingredient": {
-      "tag": "mekanism:clumps/aluminum"
+    "type": "mekanism:crushing",
+    "input": {
+        "count": 1,
+        "tag": "c:clumps/aluminum"
+    },
+    "output": {
+        "count": 1,
+        "id": "alltheores:dirty_aluminum_dust"
     }
-  },
-  "output": {
-    "item": "alltheores:dirty_aluminum_dust"
-  },
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
 }

@@ -1,17 +1,16 @@
 {
-  "type": "mekanism:dissolution",
-  "gasInput": {
-    "amount": 2,
-    "gas": "mekanism:sulfuric_acid"
-  },
-  "itemInput": {
-    "ingredient": {
-      "tag": "neoforge:storage_blocks/raw_silver"
+    "type": "mekanism:dissolution",
+    "gas_input": {
+        "amount": 2,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "item_input": {
+        "count": 1,
+        "tag": "c:storage_blocks/raw_silver"
+    },
+    "output": {
+        "amount": 6000,
+        "chemical_type": "slurry",
+        "id": "alltheores:dirty_silver"
     }
-  },
-  "output": {
-    "amount": 6000,
-    "chemicalType": "slurry",
-    "slurry": "alltheores:dirty_silver"
-  }
 }

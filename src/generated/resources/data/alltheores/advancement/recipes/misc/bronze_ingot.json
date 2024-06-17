@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:nuggets/bronze]_nugget": {
+    "has_TagKey[minecraft:item / c:nuggets/bronze]_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:nuggets/bronze"
+            "items": "#c:nuggets/bronze"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:nuggets/bronze]_nugget"
+      "has_TagKey[minecraft:item / c:nuggets/bronze]_nugget"
     ]
   ],
   "rewards": {

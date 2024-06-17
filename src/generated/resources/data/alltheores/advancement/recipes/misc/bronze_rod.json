@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/bronze]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/bronze]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/bronze"
+            "items": "#c:ingots/bronze"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/bronze]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/bronze]_ingot"
     ]
   ],
   "rewards": {

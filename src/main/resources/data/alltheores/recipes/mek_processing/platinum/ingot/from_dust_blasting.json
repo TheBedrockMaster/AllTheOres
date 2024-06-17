@@ -1,9 +1,13 @@
 {
-  "type": "minecraft:blasting",
-  "result": "alltheores:platinum_ingot",
-  "ingredient": {
-    "tag": "neoforge:dusts/platinum"
-  },
-  "cookingtime": 100,
-  "experience": 0.3
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:dusts/platinum"
+    },
+    "result": {
+        "count": 1,
+        "id": "alltheores:platinum_ingot"
+    }
 }

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:storage_blocks/electrum"
+      "tag": "c:storage_blocks/electrum"
     }
   ],
   "result": {

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/lumium]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/lumium]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/lumium"
+            "items": "#c:ingots/lumium"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/lumium]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/lumium]_ingot"
     ]
   ],
   "rewards": {

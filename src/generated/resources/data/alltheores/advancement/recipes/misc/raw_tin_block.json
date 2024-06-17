@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_TagKey[minecraft:item / neoforge:raw_materials/tin]": {
+    "has_raw_TagKey[minecraft:item / c:raw_materials/tin]": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:raw_materials/tin"
+            "items": "#c:raw_materials/tin"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_TagKey[minecraft:item / neoforge:raw_materials/tin]"
+      "has_raw_TagKey[minecraft:item / c:raw_materials/tin]"
     ]
   ],
   "rewards": {

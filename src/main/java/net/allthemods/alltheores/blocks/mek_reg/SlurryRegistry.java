@@ -6,10 +6,6 @@ import mekanism.common.registration.impl.SlurryDeferredRegister;
 import mekanism.common.registration.impl.SlurryRegistryObject;
 import mekanism.common.registration.MekanismDeferredRegister;
 import mekanism.common.registration.impl.DeferredChemical.DeferredSlurry;
-import mekanism.common.resource.PrimaryResource;
-import net.allthemods.alltheores.infos.ItemTagRegistry;
-import net.allthemods.alltheores.infos.Reference;
-
 import java.util.function.Supplier;
 import java.util.function.UnaryOperator;
 

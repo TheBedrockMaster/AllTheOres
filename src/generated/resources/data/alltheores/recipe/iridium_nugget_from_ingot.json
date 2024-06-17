@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/iridium"
+      "tag": "c:ingots/iridium"
     }
   ],
   "result": {

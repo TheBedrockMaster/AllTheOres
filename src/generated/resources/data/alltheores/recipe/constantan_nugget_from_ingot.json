@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/constantan"
+      "tag": "c:ingots/constantan"
     }
   ],
   "result": {

@@ -1,17 +1,11 @@
 {
-  "type": "mekanism:enriching",
-  "input": {
-    "ingredient": {
-      "tag": "mekanism:dirty_dusts/platinum"
+    "type": "mekanism:enriching",
+    "input": {
+        "count": 1,
+        "tag": "mekanism:dirty_dusts/platinum"
+    },
+    "output": {
+        "count": 1,
+        "id": "alltheores:platinum_dust"
     }
-  },
-  "output": {
-    "item": "alltheores:platinum_dust"
-  },
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
 }

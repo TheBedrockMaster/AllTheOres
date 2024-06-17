@@ -4,10 +4,10 @@
   "group": "alltheores",
   "key": {
     "a": {
-      "tag": "neoforge:ingots/uranium"
+      "tag": "c:ingots/uranium"
     },
     "i": {
-      "tag": "neoforge:nuggets/iron"
+      "tag": "c:nuggets/iron"
     }
   },
   "pattern": [

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:storage_blocks/sapphire"
+      "tag": "c:storage_blocks/sapphire"
     }
   ],
   "result": {

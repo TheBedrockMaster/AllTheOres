@@ -332,36 +332,36 @@ public class ItemTagRegistry {
     //MEK COMPAT
 
     public static final TagKey<Item> CLUMPS_MEK = ItemTags.create(Reference.mek("clumps"));
-    public static final TagKey<Item> CLUMPS_MEK_ALU = ItemTags.create(Reference.mek("clumps/aluminum"));
-    public static final TagKey<Item> CLUMPS_MEK_NIC = ItemTags.create(Reference.mek("clumps/nickel"));
-    public static final TagKey<Item> CLUMPS_MEK_PLA = ItemTags.create(Reference.mek("clumps/platinum"));
-    public static final TagKey<Item> CLUMPS_MEK_SIL = ItemTags.create(Reference.mek("clumps/silver"));
-    public static final TagKey<Item> CLUMPS_MEK_ZIN = ItemTags.create(Reference.mek("clumps/zinc"));
+    public static final TagKey<Item> CLUMPS_MEK_ALU = ItemTags.create(Reference.forge("clumps/aluminum"));
+    public static final TagKey<Item> CLUMPS_MEK_NIC = ItemTags.create(Reference.forge("clumps/nickel"));
+    public static final TagKey<Item> CLUMPS_MEK_PLA = ItemTags.create(Reference.forge("clumps/platinum"));
+    public static final TagKey<Item> CLUMPS_MEK_SIL = ItemTags.create(Reference.forge("clumps/silver"));
+    public static final TagKey<Item> CLUMPS_MEK_ZIN = ItemTags.create(Reference.forge("clumps/zinc"));
 
     public static final TagKey<Item> CRYSTAL_MEK = ItemTags.create(Reference.mek("crystals"));
-    public static final TagKey<Item> CRYSTAL_MEK_ALU = ItemTags.create(Reference.mek("crystals/aluminum"));
-    public static final TagKey<Item> CRYSTAL_MEK_NIC = ItemTags.create(Reference.mek("crystals/nickel"));
-    public static final TagKey<Item> CRYSTAL_MEK_PLA = ItemTags.create(Reference.mek("crystals/platinum"));
-    public static final TagKey<Item> CRYSTAL_MEK_SIL = ItemTags.create(Reference.mek("crystals/silver"));
-    public static final TagKey<Item> CRYSTAL_MEK_ZIN = ItemTags.create(Reference.mek("crystals/zinc"));
+    public static final TagKey<Item> CRYSTAL_MEK_ALU = ItemTags.create(Reference.forge("crystals/aluminum"));
+    public static final TagKey<Item> CRYSTAL_MEK_NIC = ItemTags.create(Reference.forge("crystals/nickel"));
+    public static final TagKey<Item> CRYSTAL_MEK_PLA = ItemTags.create(Reference.forge("crystals/platinum"));
+    public static final TagKey<Item> CRYSTAL_MEK_SIL = ItemTags.create(Reference.forge("crystals/silver"));
+    public static final TagKey<Item> CRYSTAL_MEK_ZIN = ItemTags.create(Reference.forge("crystals/zinc"));
 
     public static final TagKey<Item> DIRTY_MEK = ItemTags.create(Reference.mek("dirty_dusts"));
-    public static final TagKey<Item> DIRTY_MEK_ALU = ItemTags.create(Reference.mek("dirty_dusts/aluminum"));
-    public static final TagKey<Item> DIRTY_MEK_NIC = ItemTags.create(Reference.mek("dirty_dusts/nickel"));
-    public static final TagKey<Item> DIRTY_MEK_PLA = ItemTags.create(Reference.mek("dirty_dusts/platinum"));
-    public static final TagKey<Item> DIRTY_MEK_SIL = ItemTags.create(Reference.mek("dirty_dusts/silver"));
-    public static final TagKey<Item> DIRTY_MEK_ZIN = ItemTags.create(Reference.mek("dirty_dusts/zinc"));
+    public static final TagKey<Item> DIRTY_MEK_ALU = ItemTags.create(Reference.forge("dirty_dusts/aluminum"));
+    public static final TagKey<Item> DIRTY_MEK_NIC = ItemTags.create(Reference.forge("dirty_dusts/nickel"));
+    public static final TagKey<Item> DIRTY_MEK_PLA = ItemTags.create(Reference.forge("dirty_dusts/platinum"));
+    public static final TagKey<Item> DIRTY_MEK_SIL = ItemTags.create(Reference.forge("dirty_dusts/silver"));
+    public static final TagKey<Item> DIRTY_MEK_ZIN = ItemTags.create(Reference.forge("dirty_dusts/zinc"));
 
     public static final TagKey<Item> SHARD_MEK = ItemTags.create(Reference.mek("shards"));
-    public static final TagKey<Item> SHARD_MEK_ALU = ItemTags.create(Reference.mek("shards/aluminum"));
-    public static final TagKey<Item> SHARD_MEK_NIC = ItemTags.create(Reference.mek("shards/nickel"));
-    public static final TagKey<Item> SHARD_MEK_PLA = ItemTags.create(Reference.mek("shards/platinum"));
-    public static final TagKey<Item> SHARD_MEK_SIL = ItemTags.create(Reference.mek("shards/silver"));
-    public static final TagKey<Item> SHARD_MEK_ZIN = ItemTags.create(Reference.mek("shards/zinc"));
+    public static final TagKey<Item> SHARD_MEK_ALU = ItemTags.create(Reference.forge("shards/aluminum"));
+    public static final TagKey<Item> SHARD_MEK_NIC = ItemTags.create(Reference.forge("shards/nickel"));
+    public static final TagKey<Item> SHARD_MEK_PLA = ItemTags.create(Reference.forge("shards/platinum"));
+    public static final TagKey<Item> SHARD_MEK_SIL = ItemTags.create(Reference.forge("shards/silver"));
+    public static final TagKey<Item> SHARD_MEK_ZIN = ItemTags.create(Reference.forge("shards/zinc"));
 
 
     private static TagKey<Item> forge(String name)
     {
-        return net.minecraft.tags.ItemTags.create(ResourceLocation.fromNamespaceAndPath("neoforge", name));
+        return net.minecraft.tags.ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", name));
     }
 }

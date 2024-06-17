@@ -4,7 +4,7 @@
   "group": "alltheores",
   "key": {
     "a": {
-      "tag": "neoforge:ingots/brass"
+      "tag": "c:ingots/brass"
     },
     "h": {
       "tag": "alltheores:ore_hammers"

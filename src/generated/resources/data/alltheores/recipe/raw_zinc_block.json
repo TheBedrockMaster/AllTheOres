@@ -4,7 +4,7 @@
   "group": "alltheores",
   "key": {
     "a": {
-      "tag": "neoforge:raw_materials/zinc"
+      "tag": "c:raw_materials/zinc"
     }
   },
   "pattern": [

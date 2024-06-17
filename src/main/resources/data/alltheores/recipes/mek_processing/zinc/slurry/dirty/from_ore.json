@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:dissolution",
+    "gas_input": {
+        "amount": 1,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "item_input": {
+        "count": 1,
+        "tag": "c:ores/zinc"
+    },
+    "output": {
+        "amount": 1000,
+        "chemical_type": "slurry",
+        "id": "alltheores:dirty_zinc"
+    }
+}

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:nuggets/aluminum]_nugget": {
+    "has_TagKey[minecraft:item / c:nuggets/aluminum]_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:nuggets/aluminum"
+            "items": "#c:nuggets/aluminum"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:nuggets/aluminum]_nugget"
+      "has_TagKey[minecraft:item / c:nuggets/aluminum]_nugget"
     ]
   ],
   "rewards": {

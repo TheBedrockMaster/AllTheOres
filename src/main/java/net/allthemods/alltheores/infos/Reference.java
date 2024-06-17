@@ -22,7 +22,7 @@ public class Reference {
 	public static ResourceLocation mek (String path) { return ResourceLocation.fromNamespaceAndPath("mekanism",path); }
 	public static ResourceLocation vanilla(String path) { return ResourceLocation.fromNamespaceAndPath("minecraft",path); }
 	public static ResourceLocation forge(String path) {
-		return ResourceLocation.fromNamespaceAndPath("neoforge", path);
+		return ResourceLocation.fromNamespaceAndPath("c", path);
 	}
 	public static ResourceLocation ingot(String path) {	return forge("ingots/" + path); }
 	public static ResourceLocation vanillaIngot(String path) {	return vanilla("ingots/" + path); }

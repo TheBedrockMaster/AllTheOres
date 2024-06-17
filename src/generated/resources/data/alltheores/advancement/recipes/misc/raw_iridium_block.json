@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_TagKey[minecraft:item / neoforge:raw_materials/iridium]": {
+    "has_raw_TagKey[minecraft:item / c:raw_materials/iridium]": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:raw_materials/iridium"
+            "items": "#c:raw_materials/iridium"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_TagKey[minecraft:item / neoforge:raw_materials/iridium]"
+      "has_raw_TagKey[minecraft:item / c:raw_materials/iridium]"
     ]
   ],
   "rewards": {

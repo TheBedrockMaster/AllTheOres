@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/tin]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/tin]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/tin"
+            "items": "#c:ingots/tin"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/tin]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/tin]_ingot"
     ]
   ],
   "rewards": {

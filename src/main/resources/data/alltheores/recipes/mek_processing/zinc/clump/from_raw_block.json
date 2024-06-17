@@ -1,16 +1,15 @@
 {
-  "type": "mekanism:purifying",
-  "chemicalInput": {
-    "amount": 2,
-    "gas": "mekanism:oxygen"
-  },
-  "itemInput": {
-    "ingredient": {
-      "tag": "neoforge:storage_blocks/raw_zinc"
+    "type": "mekanism:purifying",
+    "chemical_input": {
+        "amount": 2,
+        "gas": "mekanism:oxygen"
+    },
+    "item_input": {
+        "count": 1,
+        "tag": "c:storage_blocks/raw_zinc"
+    },
+    "output": {
+        "count": 18,
+        "id": "alltheores:zinc_clump"
     }
-  },
-  "output": {
-    "count": 18,
-    "item": "alltheores:zinc_clump"
-  }
 }

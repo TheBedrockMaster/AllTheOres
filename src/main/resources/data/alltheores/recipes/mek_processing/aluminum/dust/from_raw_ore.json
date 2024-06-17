@@ -1,13 +1,11 @@
 {
-  "type": "mekanism:enriching",
-  "input": {
-    "amount": 3,
-    "ingredient": {
-      "tag": "neoforge:raw_materials/aluminum"
+    "type": "mekanism:enriching",
+    "input": {
+        "count": 3,
+        "tag": "c:raw_materials/aluminum"
+    },
+    "output": {
+        "count": 4,
+        "id": "alltheores:aluminum_dust"
     }
-  },
-  "output": {
-    "item": "alltheores:aluminum_dust",
-    "count": 4
-  }
 }

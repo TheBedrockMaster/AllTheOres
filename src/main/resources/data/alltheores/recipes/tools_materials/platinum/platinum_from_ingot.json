@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:ingots/platinum"
+    "tag": "c:ingots/platinum"
   },
   "value": 1,
   "needed": 1,

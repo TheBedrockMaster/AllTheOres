@@ -1,9 +1,13 @@
 {
-  "type": "minecraft:blasting",
-  "result": "alltheores:aluminum_ingot",
-  "ingredient": {
-    "tag": "neoforge:dusts/aluminum"
-  },
-  "cookingtime": 100,
-  "experience": 0.3
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:dusts/aluminum"
+    },
+    "result": {
+        "count": 1,
+        "id": "alltheores:aluminum_ingot"
+    }
 }

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:gems/sapphire]_ingot": {
+    "has_TagKey[minecraft:item / c:gems/sapphire]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:gems/sapphire"
+            "items": "#c:gems/sapphire"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:gems/sapphire]_ingot"
+      "has_TagKey[minecraft:item / c:gems/sapphire]_ingot"
     ]
   ],
   "rewards": {

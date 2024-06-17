@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:nuggets/tin]_nugget": {
+    "has_TagKey[minecraft:item / c:nuggets/tin]_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:nuggets/tin"
+            "items": "#c:nuggets/tin"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:nuggets/tin]_nugget"
+      "has_TagKey[minecraft:item / c:nuggets/tin]_nugget"
     ]
   ],
   "rewards": {

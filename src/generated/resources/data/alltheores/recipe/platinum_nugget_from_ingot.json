@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/platinum"
+      "tag": "c:ingots/platinum"
     }
   ],
   "result": {

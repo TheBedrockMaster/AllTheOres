@@ -1,9 +1,9 @@
 {
   "values": [
-    "alltheores:aluminum_shard",
-    "alltheores:nickel_shard",
-    "alltheores:platinum_shard",
-    "alltheores:silver_shard",
-    "alltheores:zinc_shard"
+    "#c:shards/aluminum",
+    "#c:shards/nickel",
+    "#c:shards/platinum",
+    "#c:shards/silver",
+    "#c:shards/zinc"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-       "tag": "neoforge:dusts/aluminum"
+       "tag": "c:dusts/aluminum"
   },
   "result": "alltheores:aluminum_ingot",
   "experience": 1.0,

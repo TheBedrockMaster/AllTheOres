@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:ingots/osmium"
+    "tag": "c:ingots/osmium"
   },
   "value": 1,
   "needed": 1,

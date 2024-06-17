@@ -1,17 +1,12 @@
 {
-  "type": "mekanism:crystallizing",
-  "chemicalType": "slurry",
-  "input": {
-    "amount": 200,
-    "slurry": "alltheores:clean_silver"
-  },
-  "output": {
-    "item": "alltheores:silver_crystal"
-  },
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
+    "type": "mekanism:crystallizing",
+    "chemical_type": "slurry",
+    "input": {
+        "amount": 200,
+        "slurry": "alltheores:clean_silver"
+    },
+    "output": {
+        "count": 1,
+        "id": "alltheores:silver_crystal"
     }
-  ]
 }

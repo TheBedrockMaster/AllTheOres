@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:nuggets/zinc]_nugget": {
+    "has_TagKey[minecraft:item / c:nuggets/zinc]_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:nuggets/zinc"
+            "items": "#c:nuggets/zinc"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:nuggets/zinc]_nugget"
+      "has_TagKey[minecraft:item / c:nuggets/zinc]_nugget"
     ]
   ],
   "rewards": {

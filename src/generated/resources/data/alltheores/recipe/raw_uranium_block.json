@@ -4,7 +4,7 @@
   "group": "alltheores",
   "key": {
     "a": {
-      "tag": "neoforge:raw_materials/uranium"
+      "tag": "c:raw_materials/uranium"
     }
   },
   "pattern": [

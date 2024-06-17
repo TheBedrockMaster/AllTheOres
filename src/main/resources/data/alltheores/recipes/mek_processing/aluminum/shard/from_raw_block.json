@@ -1,16 +1,15 @@
 {
-  "type": "mekanism:injecting",
-  "chemicalInput": {
-    "amount": 2,
-    "gas": "mekanism:hydrogen_chloride"
-  },
-  "itemInput": {
-    "ingredient": {
-      "tag": "neoforge:storage_blocks/raw_aluminum"
+    "type": "mekanism:injecting",
+    "chemical_input": {
+        "amount": 2,
+        "gas": "mekanism:hydrogen_chloride"
+    },
+    "item_input": {
+        "count": 1,
+        "tag": "c:storage_blocks/raw_aluminum"
+    },
+    "output": {
+        "count": 24,
+        "id": "alltheores:aluminum_shard"
     }
-  },
-  "output": {
-    "count": 24,
-    "item": "alltheores:aluminum_shard"
-  }
 }

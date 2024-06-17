@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/signalum"
+      "tag": "c:ingots/signalum"
     }
   ],
   "result": {

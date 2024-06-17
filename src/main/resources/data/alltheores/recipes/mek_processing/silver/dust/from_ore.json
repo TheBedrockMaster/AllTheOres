@@ -1,18 +1,11 @@
 {
-  "type": "mekanism:enriching",
-  "input": {
-    "ingredient": {
-      "tag": "neoforge:ores/silver"
+    "type": "mekanism:enriching",
+    "input": {
+        "count": 1,
+        "tag": "c:ores/silver"
+    },
+    "output": {
+        "count": 2,
+        "id": "alltheores:silver_dust"
     }
-  },
-  "output": {
-    "item": "alltheores:silver_dust",
-    "count": 2
-  },
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
-    }
-  ]
 }

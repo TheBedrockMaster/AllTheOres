@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:ingots/tin"
+    "tag": "c:ingots/tin"
   },
   "value": 1,
   "needed": 1,

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:storage_blocks/silver"
+      "tag": "c:storage_blocks/silver"
     }
   ],
   "result": {

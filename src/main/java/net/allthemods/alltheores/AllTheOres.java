@@ -31,6 +31,7 @@ public class AllTheOres {
 			MekRegistry.ITEMS.register(modEventBus);
 			ATOSlurries.SLURRIES.register(modEventBus);
 			MekRegistry.CREATIVE_TABS.register(modEventBus);
+			
 		}
 		setupLogFilter();
 	}

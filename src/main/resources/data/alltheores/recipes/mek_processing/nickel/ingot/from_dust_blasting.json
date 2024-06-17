@@ -1,9 +1,13 @@
 {
-  "type": "minecraft:blasting",
-  "result": "alltheores:nickel_ingot",
-  "ingredient": {
-    "tag": "neoforge:dusts/nickel"
-  },
-  "cookingtime": 100,
-  "experience": 0.3
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "cookingtime": 100,
+    "experience": 0.35,
+    "ingredient": {
+        "tag": "c:dusts/nickel"
+    },
+    "result": {
+        "count": 1,
+        "id": "alltheores:nickel_ingot"
+    }
 }

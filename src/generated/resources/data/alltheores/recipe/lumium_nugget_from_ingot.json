@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/lumium"
+      "tag": "c:ingots/lumium"
     }
   ],
   "result": {

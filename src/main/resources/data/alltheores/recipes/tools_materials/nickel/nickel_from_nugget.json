@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:nuggets/nickel"
+    "tag": "c:nuggets/nickel"
   },
   "value": 1,
   "needed": 9,

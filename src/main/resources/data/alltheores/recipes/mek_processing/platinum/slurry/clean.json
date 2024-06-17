@@ -1,21 +1,15 @@
 {
-  "type": "mekanism:washing",
-  "fluidInput": {
-    "amount": 5,
-    "tag": "minecraft:water"
-  },
-  "slurryInput": {
-    "amount": 1,
-    "slurry": "alltheores:dirty_platinum"
-  },
-  "output": {
-    "slurry": "alltheores:clean_platinum",
-    "amount": 1
-  },
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "mekanism"
+    "type": "mekanism:washing",
+    "fluid_input": {
+        "amount": 5,
+        "tag": "minecraft:water"
+    },
+    "output": {
+        "amount": 1,
+        "id": "alltheores:clean_platinum"
+    },
+    "slurry_input": {
+        "amount": 1,
+        "slurry": "alltheores:dirty_platinum"
     }
-  ]
 }

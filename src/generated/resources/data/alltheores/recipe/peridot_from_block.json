@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:storage_blocks/peridot"
+      "tag": "c:storage_blocks/peridot"
     }
   ],
   "result": {

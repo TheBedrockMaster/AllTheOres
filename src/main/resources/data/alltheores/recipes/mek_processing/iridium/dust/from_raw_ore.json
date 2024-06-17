@@ -1,13 +1,11 @@
 {
-  "type": "mekanism:enriching",
-  "input": {
-    "amount": 3,
-    "ingredient": {
-      "tag": "neoforge:raw_materials/iridium"
+    "type": "mekanism:enriching",
+    "input": {
+        "count": 3,
+        "tag": "c:raw_materials/iridium"
+    },
+    "output": {
+        "count": 4,
+        "id": "alltheores:iridium_dust"
     }
-  },
-  "output": {
-    "item": "alltheores:iridium_dust",
-    "count": 4
-  }
 }

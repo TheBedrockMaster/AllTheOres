@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:dissolution",
+    "gas_input": {
+        "amount": 1,
+        "gas": "mekanism:sulfuric_acid"
+    },
+    "item_input": {
+        "count": 3,
+        "tag": "c:raw_materials/silver"
+    },
+    "output": {
+        "amount": 2000,
+        "chemical_type": "slurry",
+        "id": "alltheores:dirty_silver"
+    }
+}

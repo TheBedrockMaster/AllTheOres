@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/enderium]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/enderium]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/enderium"
+            "items": "#c:ingots/enderium"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/enderium]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/enderium]_ingot"
     ]
   ],
   "rewards": {

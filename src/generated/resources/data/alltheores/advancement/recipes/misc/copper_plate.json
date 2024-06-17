@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/copper]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/copper]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/copper"
+            "items": "#c:ingots/copper"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/copper]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/copper]_ingot"
     ]
   ],
   "rewards": {

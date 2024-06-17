@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:nuggets/aluminum"
+    "tag": "c:nuggets/aluminum"
   },
   "value": 1,
   "needed": 9,

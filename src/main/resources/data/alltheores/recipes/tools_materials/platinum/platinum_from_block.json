@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:storage_blocks/platinum"
+    "tag": "c:storage_blocks/platinum"
   },
   "value": 9,
   "needed": 1,

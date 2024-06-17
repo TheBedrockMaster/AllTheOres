@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "tag": "neoforge:dusts/uranium"
+    "tag": "c:dusts/uranium"
   },
   "result": "alltheores:uranium_ingot",
   "experience": 1.0,

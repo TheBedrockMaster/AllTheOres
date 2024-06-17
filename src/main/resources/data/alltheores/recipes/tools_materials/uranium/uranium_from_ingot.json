@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:ingots/uranium"
+    "tag": "c:ingots/uranium"
   },
   "value": 1,
   "needed": 1,

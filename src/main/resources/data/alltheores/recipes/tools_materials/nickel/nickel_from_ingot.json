@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:ingots/nickel"
+    "tag": "c:ingots/nickel"
   },
   "value": 1,
   "needed": 1,

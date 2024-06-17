@@ -4,7 +4,7 @@
   "group": "alltheores",
   "key": {
     "a": {
-      "tag": "neoforge:gems/ruby"
+      "tag": "c:gems/ruby"
     }
   },
   "pattern": [

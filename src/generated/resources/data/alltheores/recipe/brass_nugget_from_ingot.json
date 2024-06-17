@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/brass"
+      "tag": "c:ingots/brass"
     }
   ],
   "result": {

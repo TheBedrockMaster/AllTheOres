@@ -1,17 +1,15 @@
 {
-  "type": "mekanism:injecting",
-  "itemInput": {
-    "amount": 3,
-    "ingredient": {
-      "tag": "neoforge:raw_materials/platinum"
+    "type": "mekanism:injecting",
+    "chemical_input": {
+        "amount": 1,
+        "gas": "mekanism:hydrogen_chloride"
+    },
+    "item_input": {
+        "count": 3,
+        "tag": "c:raw_materials/platinum"
+    },
+    "output": {
+        "count": 8,
+        "id": "alltheores:platinum_shard"
     }
-  },
-  "chemicalInput": {
-    "amount": 1,
-    "gas": "mekanism:hydrogen_chloride"
-  },
-  "output": {
-    "item": "alltheores:platinum_shard",
-    "count": 8
-  }
 }

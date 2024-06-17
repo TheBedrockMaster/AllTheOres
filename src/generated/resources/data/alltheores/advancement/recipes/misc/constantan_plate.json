@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/constantan]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/constantan]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/constantan"
+            "items": "#c:ingots/constantan"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/constantan]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/constantan]_ingot"
     ]
   ],
   "rewards": {

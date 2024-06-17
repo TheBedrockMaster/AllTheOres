@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "tag": "neoforge:storage_blocks/osmium"
+    "tag": "c:storage_blocks/osmium"
   },
   "value": 9,
   "needed": 1,

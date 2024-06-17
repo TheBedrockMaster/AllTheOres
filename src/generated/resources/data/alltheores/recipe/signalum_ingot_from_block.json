@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:storage_blocks/signalum"
+      "tag": "c:storage_blocks/signalum"
     }
   ],
   "result": {

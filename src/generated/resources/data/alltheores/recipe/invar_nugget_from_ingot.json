@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/invar"
+      "tag": "c:ingots/invar"
     }
   ],
   "result": {

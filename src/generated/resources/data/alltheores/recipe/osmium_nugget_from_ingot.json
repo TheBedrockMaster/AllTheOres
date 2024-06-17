@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/osmium"
+      "tag": "c:ingots/osmium"
     }
   ],
   "result": {

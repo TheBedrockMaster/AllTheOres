@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:ingots/bronze"
+      "tag": "c:ingots/bronze"
     }
   ],
   "result": {

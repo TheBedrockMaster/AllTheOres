@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/nickel]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/nickel]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/nickel"
+            "items": "#c:ingots/nickel"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/nickel]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/nickel]_ingot"
     ]
   ],
   "rewards": {

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_TagKey[minecraft:item / neoforge:ingots/steel]_ingot": {
+    "has_TagKey[minecraft:item / c:ingots/steel]_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#neoforge:ingots/steel"
+            "items": "#c:ingots/steel"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_TagKey[minecraft:item / neoforge:ingots/steel]_ingot"
+      "has_TagKey[minecraft:item / c:ingots/steel]_ingot"
     ]
   ],
   "rewards": {

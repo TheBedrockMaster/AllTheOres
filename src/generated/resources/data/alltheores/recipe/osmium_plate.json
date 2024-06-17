@@ -4,7 +4,7 @@
   "group": "alltheores",
   "key": {
     "a": {
-      "tag": "neoforge:ingots/osmium"
+      "tag": "c:ingots/osmium"
     },
     "h": {
       "tag": "alltheores:ore_hammers"

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:storage_blocks/zinc"
+      "tag": "c:storage_blocks/zinc"
     }
   ],
   "result": {

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-   "tag": "neoforge:dusts/lead"
+   "tag": "c:dusts/lead"
   },
   "result": "alltheores:lead_ingot",
   "experience": 1.0,
